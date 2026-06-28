@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Personal Website for a New Medical Graduate
+    Replace bracketed placeholders with real information.
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional personal website for a newly graduated doctor." />
+  <meta name="theme-color" content="#0f5f80" />
+
+  <title>Dr. [Doctor Name] | Medical Graduate</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="mid13.css" />
+</head>
+
+<body>
+  <!-- Decorative background glow -->
+  <div class="page-glow page-glow-one"></div>
+  <div class="page-glow page-glow-two"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#hero" class="brand" aria-label="Homepage">
+        <span class="brand-mark"><i class="fa-solid fa-stethoscope"></i></span>
+        <span class="brand-text">Dr. [Doctor Name]</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#graduation">Graduation</a>
+        <a href="#education">Education</a>
+        <a href="#rotations">Rotations</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="hero section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">
+            <i class="fa-solid fa-user-doctor"></i>
+            Doctor / Medical Graduate / Future Physician
+          </p>
+
+          <h1>
+            A New Journey in
+            <span>Medicine Begins</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Dedicated to healing, learning, and serving with compassion,
+            academic excellence, and a lifelong commitment to patient-centered care.
+          </p>
+
+          <div class="hero-meta">
+            <span><i class="fa-solid fa-graduation-cap"></i> [University Name]</span>
+            <span><i class="fa-solid fa-calendar-check"></i> Class of [Year]</span>
+            <span><i class="fa-solid fa-location-dot"></i> [City, Country]</span>
+          </div>
+
+          <div class="hero-actions">
+            <!-- Replace cv.pdf with the actual CV file path -->
+            <a href="cv.pdf" class="btn btn-primary" download>
+              <i class="fa-solid fa-download"></i>
+              Download CV
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-paper-plane"></i>
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-portrait reveal">
+          <div class="portrait-card">
+            <!-- Replace this placeholder with the doctor's photo:
+                 <img src="doctor-photo.jpg" alt="Dr. [Doctor Name]" />
+            -->
+            <div class="portrait-placeholder">
+              <i class="fa-solid fa-user-doctor"></i>
+              <span>Doctor Photo</span>
+            </div>
+
+            <div class="achievement-badge">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>Medical Graduate</strong>
+                <small>Class of [Year]</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>[6+]</strong>
+              <span>Years of Medical Study</span>
+            </div>
+            <div>
+              <strong>[10+]</strong>
+              <span>Clinical Rotations</span>
+            </div>
+            <div>
+              <strong>[1]</strong>
+              <span>New Medical Journey</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Me -->
+    <section class="section" id="about">
+      <div class="container two-column">
+        <div class="section-intro reveal">
+          <p class="eyebrow"><i class="fa-solid fa-heart-pulse"></i> About Me</p>
+          <h2>Compassionate, curious, and ready to grow.</h2>
+        </div>
+
+        <div class="about-card glass-card reveal">
+          <p>
+            I am a newly graduated doctor with a deep passion for medicine, patient care,
+            clinical learning, and meaningful service. Throughout my medical education, I
+            have developed a strong foundation in clinical reasoning, communication, teamwork,
+            and evidence-based practice.
+          </p>
+          <p>
+            I believe that medicine is both a science and a human commitment. My goal is to
+            continue growing as a physician who listens carefully, learns constantly, supports
+            multidisciplinary teams, and serves patients with empathy, integrity, and respect.
+          </p>
+
+          <div class="signature-row">
+            <div>
+              <strong>Dr. [Doctor Name]</strong>
+              <span>Future [Preferred Specialty] Physician</span>
+            </div>
+            <i class="fa-solid fa-staff-snake"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Graduation Highlight -->
+    <section class="section section-soft" id="graduation">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Graduation Highlight</p>
+          <h2>Celebrating the beginning of a noble path.</h2>
+          <p>
+            A proud academic milestone marking dedication, discipline, and the start of a lifelong
+            commitment to medicine.
+          </p>
+        </div>
+
+        <div class="graduation-card reveal">
+          <div class="graduation-content">
+            <span class="gold-label">Class of [Year]</span>
+            <h3>Bachelor of Medicine and Surgery / MD / MBBS</h3>
+            <p class="graduation-school">[Faculty of Medicine], [University Name]</p>
+            <p>
+              Congratulations on completing medical school and stepping forward into a career
+              devoted to healing, service, research, and professional excellence.
+            </p>
+
+            <div class="graduation-details">
+              <span><i class="fa-solid fa-building-columns"></i> [University Name]</span>
+              <span><i class="fa-solid fa-location-dot"></i> [City, Country]</span>
+              <span><i class="fa-solid fa-star"></i> Graduation Achievement</span>
+            </div>
+          </div>
+
+          <div class="graduation-photo">
+            <!-- Replace with graduation image if available -->
+            <i class="fa-solid fa-camera-retro"></i>
+            <span>Graduation Photo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Education -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-book-medical"></i> Education</p>
+          <h2>Medical education built on science, practice, and service.</h2>
+        </div>
+
+        <div class="education-layout">
+          <article class="glass-card education-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-university"></i></div>
+            <h3>Bachelor of Medicine and Surgery / MD / MBBS</h3>
+            <p class="muted">[University Name] · [Start Year] – [Graduation Year]</p>
+            <p>
+              Completed comprehensive medical education covering basic sciences, clinical medicine,
+              bedside care, medical ethics, research principles, and hospital-based training.
+            </p>
+          </article>
+
+          <article class="glass-card education-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-microscope"></i></div>
+            <h3>Core Medical Fields</h3>
+            <ul class="check-list">
+              <li>Anatomy, Physiology, Biochemistry</li>
+              <li>Pathology, Pharmacology, Microbiology</li>
+              <li>Internal Medicine, Surgery, Pediatrics</li>
+              <li>Obstetrics & Gynecology, Emergency Medicine</li>
+            </ul>
+          </article>
+
+          <article class="glass-card education-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-hospital-user"></i></div>
+            <h3>Clinical Training</h3>
+            <p>
+              Participated in supervised clinical rotations, case presentations, patient interviews,
+              ward rounds, outpatient clinics, emergency care exposure, and multidisciplinary team discussions.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Clinical Rotations -->
+    <section class="section section-soft" id="rotations">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-hospital"></i> Clinical Rotations</p>
+          <h2>Hands-on exposure across essential medical departments.</h2>
+        </div>
+
+        <div class="cards-grid rotations-grid">
+          <article class="info-card reveal">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <h3>Internal Medicine</h3>
+            <p>Developed clinical reasoning through diagnosis, chronic disease care, and ward-based management.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-user-doctor"></i>
+            <h3>General Surgery</h3>
+            <p>Observed surgical assessment, perioperative care, sterile technique, and postoperative follow-up.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-child-reaching"></i>
+            <h3>Pediatrics</h3>
+            <p>Gained experience in child health, growth assessment, family communication, and pediatric emergencies.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-person-pregnant"></i>
+            <h3>Obstetrics & Gynecology</h3>
+            <p>Learned fundamentals of maternal health, women’s care, antenatal evaluation, and clinical safety.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-truck-medical"></i>
+            <h3>Emergency Medicine</h3>
+            <p>Practiced rapid assessment, prioritization, acute care principles, and teamwork under pressure.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-house-medical"></i>
+            <h3>Family Medicine</h3>
+            <p>Focused on preventive care, continuity, community health, and holistic patient-centered practice.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Psychiatry</h3>
+            <p>Built awareness of mental health assessment, empathetic communication, and multidisciplinary support.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-x-ray"></i>
+            <h3>Radiology</h3>
+            <p>Enhanced understanding of diagnostic imaging, clinical correlation, and safe imaging practices.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-syringe"></i>
+            <h3>Anesthesia</h3>
+            <p>Observed airway assessment, perioperative monitoring, pain control, and operating room safety.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <i class="fa-solid fa-bed-pulse"></i>
+            <h3>ICU / Critical Care</h3>
+            <p>Gained exposure to critical illness, monitoring, ventilatory support, and high-acuity teamwork.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Medical Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-clipboard-check"></i> Medical Skills</p>
+          <h2>Core competencies for safe, ethical, and compassionate care.</h2>
+        </div>
+
+        <div class="skills-cloud reveal">
+          <span>History Taking</span>
+          <span>Physical Examination</span>
+          <span>Patient Communication</span>
+          <span>Clinical Reasoning</span>
+          <span>Case Presentation</span>
+          <span>Basic Life Support</span>
+          <span>Teamwork</span>
+          <span>Medical Documentation</span>
+          <span>Evidence-Based Medicine</span>
+          <span>Patient Safety</span>
+          <span>Empathy & Professionalism</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Certifications -->
+    <section class="section section-soft" id="certifications">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-certificate"></i> Certifications</p>
+          <h2>Training that supports safer and more confident clinical practice.</h2>
+        </div>
+
+        <div class="certificate-list reveal">
+          <div class="certificate-item">
+            <i class="fa-solid fa-heart-circle-bolt"></i>
+            <div>
+              <h3>Basic Life Support (BLS)</h3>
+              <p>[Month Year] · Replace with issuing organization</p>
+            </div>
+          </div>
+
+          <div class="certificate-item">
+            <i class="fa-solid fa-kit-medical"></i>
+            <div>
+              <h3>Advanced Cardiovascular Life Support (ACLS)</h3>
+              <p>[Month Year] · If available</p>
+            </div>
+          </div>
+
+          <div class="certificate-item">
+            <i class="fa-solid fa-hand-holding-medical"></i>
+            <div>
+              <h3>First Aid</h3>
+              <p>[Month Year] · Emergency care basics</p>
+            </div>
+          </div>
+
+          <div class="certificate-item">
+            <i class="fa-solid fa-chart-line"></i>
+            <div>
+              <h3>Research Methodology</h3>
+              <p>[Month Year] · Study design and evidence appraisal</p>
+            </div>
+          </div>
+
+          <div class="certificate-item">
+            <i class="fa-solid fa-shield-virus"></i>
+            <div>
+              <h3>Infection Control</h3>
+              <p>[Month Year] · Safety, hygiene, and prevention standards</p>
+            </div>
+          </div>
+
+          <div class="certificate-item">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <div>
+              <h3>Medical Ethics</h3>
+              <p>[Month Year] · Professional responsibility and patient rights</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Research & Projects -->
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-flask-vial"></i> Research & Projects</p>
+          <h2>Academic curiosity and evidence-based thinking.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <span class="project-tag">Research</span>
+            <h3>[Research Title or Graduation Project]</h3>
+            <p>
+              A concise description of the study, its clinical relevance, methodology,
+              and potential value for patient care or medical education.
+            </p>
+            <ul>
+              <li><strong>Supervisor:</strong> [Supervisor Name]</li>
+              <li><strong>Role:</strong> Literature review, data collection, analysis, presentation</li>
+            </ul>
+            <a href="#" class="text-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-tag">Presentation</span>
+            <h3>[Case Report / Clinical Audit]</h3>
+            <p>
+              A medical project focused on clinical observation, structured reporting,
+              and translating evidence into practical learning.
+            </p>
+            <ul>
+              <li><strong>Supervisor:</strong> [Supervisor Name]</li>
+              <li><strong>Role:</strong> Case presentation and academic discussion</li>
+            </ul>
+            <a href="#" class="text-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Volunteer Work & Community Service -->
+    <section class="section section-soft" id="volunteer">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-hands-holding-child"></i> Volunteer Work & Community Service</p>
+          <h2>Serving communities with awareness, prevention, and care.</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <i class="fa-solid fa-people-group"></i>
+            <h3>Medical Campaigns</h3>
+            <p>Participated in community health initiatives, screening days, and public awareness events.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <i class="fa-solid fa-bullhorn"></i>
+            <h3>Health Education</h3>
+            <p>Supported awareness sessions about prevention, healthy lifestyles, and early medical consultation.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <h3>Free Medical Days</h3>
+            <p>Assisted in patient flow, documentation, basic assessment, and compassionate community support.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <i class="fa-solid fa-school"></i>
+            <h3>University Activities</h3>
+            <p>Contributed to academic, student-led, and hospital-based activities promoting teamwork and leadership.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Awards & Achievements -->
+    <section class="section" id="awards">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-trophy"></i> Awards & Achievements</p>
+          <h2>Milestones of dedication, participation, and growth.</h2>
+        </div>
+
+        <div class="achievement-grid">
+          <div class="achievement-card reveal">
+            <i class="fa-solid fa-star"></i>
+            <h3>Graduation Achievement</h3>
+            <p>Successfully completed medical school and clinical training requirements.</p>
+          </div>
+
+          <div class="achievement-card reveal">
+            <i class="fa-solid fa-medal"></i>
+            <h3>Academic Excellence</h3>
+            <p>Recognized for commitment to learning, professionalism, and academic performance.</p>
+          </div>
+
+          <div class="achievement-card reveal">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h3>Research Presentations</h3>
+            <p>Presented or contributed to medical research, case reports, or academic discussions.</p>
+          </div>
+
+          <div class="achievement-card reveal">
+            <i class="fa-solid fa-calendar-days"></i>
+            <h3>Medical Events</h3>
+            <p>Participated in conferences, workshops, seminars, and clinical learning events.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Timeline -->
+    <section class="section section-soft" id="timeline">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-route"></i> Timeline</p>
+          <h2>The journey from first lecture to first white coat milestone.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div>
+              <small>[Start Year]</small>
+              <h3>Beginning Medical School</h3>
+              <p>Started the journey with curiosity, ambition, and a commitment to medical learning.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div>
+              <small>Basic Sciences</small>
+              <h3>Foundation Years</h3>
+              <p>Built strong understanding in anatomy, physiology, pathology, and pharmacology.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div>
+              <small>Clinical Years</small>
+              <h3>Hospital-Based Learning</h3>
+              <p>Joined wards, clinics, rounds, and case discussions under clinical supervision.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div>
+              <small>[Year]</small>
+              <h3>Research / Graduation Project</h3>
+              <p>Contributed to academic work and strengthened evidence-based practice skills.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div>
+              <small>[Graduation Year]</small>
+              <h3>Graduation Day</h3>
+              <p>Celebrated the completion of medical school and the beginning of a new professional chapter.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div>
+              <small>Next Chapter</small>
+              <h3>Starting the Medical Career</h3>
+              <p>Preparing for residency, clinical service, research growth, and lifelong learning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. Gallery -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-images"></i> Gallery</p>
+          <h2>Moments from graduation, training, and academic life.</h2>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <div class="gallery-item"><i class="fa-solid fa-graduation-cap"></i><span>Graduation Photo</span></div>
+          <div class="gallery-item"><i class="fa-solid fa-users"></i><span>With Colleagues</span></div>
+          <div class="gallery-item"><i class="fa-solid fa-hospital"></i><span>Hospital Training</span></div>
+          <div class="gallery-item"><i class="fa-solid fa-camera"></i><span>Graduation Ceremony</span></div>
+          <div class="gallery-item"><i class="fa-solid fa-chalkboard-user"></i><span>Conference</span></div>
+          <div class="gallery-item"><i class="fa-solid fa-stethoscope"></i><span>Clinical Practice</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. Quote Section -->
+    <section class="quote-section reveal">
+      <div class="container">
+        <blockquote>
+          “Wherever the art of medicine is loved, there is also a love of humanity.”
+        </blockquote>
+        <p>— Hippocrates</p>
+      </div>
+    </section>
+
+    <!-- 14. Testimonials -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-comment-medical"></i> Testimonials</p>
+          <h2>Words of appreciation and professional confidence.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card reveal">
+            <p>
+              “A dedicated graduate with strong clinical curiosity, professional attitude,
+              and a sincere commitment to patient care.”
+            </p>
+            <div>
+              <strong>[Professor Name]</strong>
+              <span>Faculty Mentor</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <p>
+              “A supportive colleague who communicates clearly, works well in a team,
+              and approaches medicine with empathy.”
+            </p>
+            <div>
+              <strong>[Colleague Name]</strong>
+              <span>Medical Graduate</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <p>
+              “Demonstrated professionalism during clinical training and showed consistent
+              interest in safe, patient-centered practice.”
+            </p>
+            <div>
+              <strong>[Supervisor Name]</strong>
+              <span>Clinical Supervisor</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. Future Goals -->
+    <section class="section section-soft" id="goals">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-seedling"></i> Future Goals</p>
+          <h2>Focused on residency, service, and continuous growth.</h2>
+        </div>
+
+        <div class="goals-panel reveal">
+          <div class="goal-item">
+            <i class="fa-solid fa-user-graduate"></i>
+            <span>Pursuing residency training in [Preferred Specialty].</span>
+          </div>
+
+          <div class="goal-item">
+            <i class="fa-solid fa-notes-medical"></i>
+            <span>Developing clinical, procedural, and research skills.</span>
+          </div>
+
+          <div class="goal-item">
+            <i class="fa-solid fa-heart"></i>
+            <span>Serving patients with compassion, respect, and integrity.</span>
+          </div>
+
+          <div class="goal-item">
+            <i class="fa-solid fa-hospital"></i>
+            <span>Contributing to healthcare improvement and patient safety.</span>
+          </div>
+
+          <div class="goal-item">
+            <i class="fa-solid fa-infinity"></i>
+            <span>Maintaining lifelong learning and professional excellence.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow"><i class="fa-solid fa-envelope-open-text"></i> Contact</p>
+          <h2>Let’s connect professionally.</h2>
+          <p>
+            For professional opportunities, academic collaboration, clinical training,
+            or networking, please use the form or contact details below.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:[email@example.com]">
+              <i class="fa-solid fa-envelope"></i>
+              [email@example.com]
+            </a>
+            <a href="tel:[phone-number]">
+              <i class="fa-solid fa-phone"></i>
+              [Phone Number]
+            </a>
+            <a href="[LinkedIn URL]" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn
+            </a>
+            <a href="[Instagram URL]" target="_blank" rel="noopener">
+              <i class="fa-brands fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+          <button type="submit" class="btn btn-primary">
+            <i class="fa-solid fa-paper-plane"></i>
+            Send Message
+          </button>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 17. Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <strong>Dr. [Doctor Name]</strong>
+        <p>Medical Graduate · Class of [Year]</p>
+      </div>
+
+      <div class="footer-socials" aria-label="Social links">
+        <a href="[LinkedIn URL]" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="[Instagram URL]" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:[email@example.com]" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="cv.pdf" aria-label="CV" download><i class="fa-solid fa-file-arrow-down"></i></a>
+      </div>
+
+      <p class="footer-note">Built with dedication for a new medical journey.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JS -->
+  <script src="mid13.js"></script>
+</body>
+</html>
